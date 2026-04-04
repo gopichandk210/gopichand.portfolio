@@ -116,21 +116,21 @@
     });
 
     function draw() {
-      // White wash (instead of dark wash) — creates fading trail on white
-      ctx.fillStyle = 'rgba(245, 245, 245, 0.04)';
+      // Dark wash — creates fading trail on dark background
+      ctx.fillStyle = 'rgba(10, 10, 10, 0.04)';
       ctx.fillRect(0, 0, canvas.width, canvas.height);
       ctx.font = fontSize + 'px monospace';
 
       for (var i = 0; i < drops.length; i++) {
         var c = chars[Math.floor(Math.random() * chars.length)];
-        // Lead character in black
-        ctx.fillStyle = 'rgba(0, 0, 0, 0.15)';
+        // Lead character in green
+        ctx.fillStyle = 'rgba(40, 200, 64, 0.2)';
         ctx.fillText(c, i * fontSize, drops[i] * fontSize);
 
-        // Trail character in lighter black
+        // Trail character in dimmer green
         if (drops[i] > 1) {
           var tc = chars[Math.floor(Math.random() * chars.length)];
-          ctx.fillStyle = 'rgba(0, 0, 0, 0.07)';
+          ctx.fillStyle = 'rgba(40, 200, 64, 0.08)';
           ctx.fillText(tc, i * fontSize, (drops[i] - 1) * fontSize);
         }
 

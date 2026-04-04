@@ -9,13 +9,13 @@
 
 /* --- CSS Custom Properties --- */
 :root {
-  --bg: #f5f5f5;
-  --surface: #ffffff;
-  --text: #1a1a1a;
-  --text-secondary: rgba(0,0,0,0.6);
-  --text-dim: rgba(0,0,0,0.35);
-  --border: #000000;
-  --border-light: rgba(0,0,0,0.1);
+  --bg: #0a0a0a;
+  --surface: #141414;
+  --text: #e5e5e5;
+  --text-secondary: rgba(255,255,255,0.6);
+  --text-dim: rgba(255,255,255,0.35);
+  --border: #e5e5e5;
+  --border-light: rgba(255,255,255,0.12);
   --green: #28c840;
   --red-dot: #ff5f57;
   --yellow-dot: #febc2e;
@@ -24,9 +24,9 @@
   --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
   --radius: 0px;
-  --shadow-sm: 4px 4px 0px 0px rgba(0,0,0,1);
-  --shadow-md: 6px 6px 0px 0px rgba(0,0,0,1);
-  --shadow-lg: 8px 8px 0px 0px rgba(0,0,0,1);
+  --shadow-sm: 4px 4px 0px 0px rgba(255,255,255,0.25);
+  --shadow-md: 6px 6px 0px 0px rgba(255,255,255,0.25);
+  --shadow-lg: 8px 8px 0px 0px rgba(255,255,255,0.25);
   --transition: all 0.3s cubic-bezier(0.2, 0, 0, 1);
   --max-width: 1100px;
 }
@@ -52,13 +52,13 @@ body {
   -webkit-font-smoothing: antialiased;
   /* Paper texture via CSS pattern */
   background-image:
-    url("data:image/svg+xml,%3Csvg width='100' height='100' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100' height='100' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+    url("data:image/svg+xml,%3Csvg width='100' height='100' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100' height='100' filter='url(%23noise)' opacity='0.05'/%3E%3C/svg%3E");
   background-attachment: fixed;
 }
 
 ::selection {
-  background: var(--text);
-  color: var(--surface);
+  background: var(--green);
+  color: #000;
 }
 
 a {
@@ -123,7 +123,7 @@ a:hover {
   right: 0;
   z-index: 100;
   padding: 1rem 2rem;
-  background: rgba(245, 245, 245, 0.8);
+  background: rgba(10, 10, 10, 0.85);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
 }
@@ -610,7 +610,7 @@ main {
   left: 4px;
   width: 100%;
   height: 100%;
-  background: var(--border);
+  background: rgba(255,255,255,0.2);
   z-index: 1;
   transition: var(--transition);
 }
@@ -717,7 +717,7 @@ main {
 }
 
 .experience-card:hover {
-  background: rgba(0,0,0,0.02);
+  background: rgba(255,255,255,0.03);
   border-color: var(--border-light);
   box-shadow: none;
 }
@@ -940,7 +940,7 @@ main {
   left: 2px;
   right: -4px;
   bottom: -4px;
-  background: var(--border);
+  background: rgba(255,255,255,0.2);
   z-index: -1;
   transition: var(--transition);
 }
@@ -1068,11 +1068,11 @@ main {
   height: 11px;
 }
 
-/* Monochrome grayscale contribution levels */
-.contribution-cell.level-0 { background: rgba(0,0,0,0.05); }
-.contribution-cell.level-1 { background: rgba(0,0,0,0.15); }
-.contribution-cell.level-2 { background: rgba(0,0,0,0.3); }
-.contribution-cell.level-3 { background: rgba(0,0,0,0.5); }
+/* Monochrome contribution levels — dark theme */
+.contribution-cell.level-0 { background: rgba(255,255,255,0.06); }
+.contribution-cell.level-1 { background: rgba(255,255,255,0.15); }
+.contribution-cell.level-2 { background: rgba(255,255,255,0.3); }
+.contribution-cell.level-3 { background: rgba(255,255,255,0.5); }
 .contribution-cell.level-4 { background: var(--text); }
 
 .github-graph-footer {
@@ -1214,7 +1214,7 @@ main {
   text-decoration: none;
   background: var(--surface);
   transition: var(--transition);
-  box-shadow: 3px 3px 0px 0px rgba(0,0,0,1);
+  box-shadow: 3px 3px 0px 0px rgba(255,255,255,0.25);
 }
 
 .project-link:hover {
@@ -1723,7 +1723,7 @@ main {
   color: var(--text);
   cursor: pointer;
   transition: var(--transition);
-  box-shadow: 3px 3px 0 0 rgba(0,0,0,1);
+  box-shadow: 3px 3px 0 0 rgba(255,255,255,0.25);
 }
 
 .footer-scroll-top:hover {
@@ -1951,5 +1951,5 @@ main {
     display: none !important;
   }
   .section { opacity: 1 !important; transform: none !important; }
-  body { background: white; }
+  body { background: white; color: #000; }
 }
