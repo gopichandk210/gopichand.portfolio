@@ -1,0 +1,95 @@
+{
+  "heading": "$ ls -la skills/",
+  "categories": [
+    {
+      "name": "languages",
+      "permissions": "drwxr-xr-x",
+      "items": [
+        "C++",
+        "Python",
+        "Java",
+        "C",
+        "JavaScript",
+        "Typescript",
+        "Bash",
+        "GraphQL"
+      ]
+    },
+    {
+      "name": "frameworks",
+      "permissions": "drwxr-xr-x",
+      "items": [
+        "React",
+        "Angular",
+        "Node.js",
+        "NumPy",
+        "Pandas",
+        "TensorFlow",
+        "Apache Spark",
+        "Spark",
+        "Hadoop",
+        "Kafka",
+        "PyTorch",
+        "Spring Boot"
+      ]
+    },
+    {
+      "name": "tools",
+      "permissions": "drwxr-xr-x",
+      "items": [
+        "GitLab CI",
+        "Jira",
+        "Jenkins",
+        "Terraform",
+        "Docker",
+        "Kubernetes",
+        "Splunk",
+        "Grafana",
+        "Git",
+        "Visual Studio",
+        "STS",
+        "Postman",
+        "MS Office",
+        "Jupyter",
+        "CMake",
+        "Figma",
+        "gRPC",
+        "Maven",
+        "JUnit4"
+      ]
+    },
+    {
+      "name": "technical",
+      "permissions": "drwxr-xr-x",
+      "items": [
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB",
+        "Oracle",
+        "Redis",
+        "Elasticsearch",
+        "Firebase",
+        "Hive",
+        "Linux",
+        "Unix",
+        "Windows",
+        "macOS",
+        "Android",
+        "iOS",
+        "Amazon S3",
+        "AWS Security",
+        "AWS RDS",
+        "GCP",
+        "PCF",
+        "Data Mining",
+        "LLMs",
+        "NLP",
+        "XGBoost",
+        "Statistical ML",
+        "GenerativeAI",
+        "OpenCV"
+      ]
+    }
+  ],
+  "githubUsername": "Hema-Varshini"
+}

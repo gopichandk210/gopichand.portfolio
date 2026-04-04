@@ -1,0 +1,49 @@
+{
+  "asciiName": [
+    "=======================",
+    "  Hema Varshini Perla  ",
+    "======================="
+  ],
+  "name": "Hema Varshini Perla",
+  "tagline": "Available for work",
+  "roles": [
+    "Software Engineer",
+    "Software Engineer Co-op",
+    "Software Development Engineer",
+    "Software Engineer Intern"
+  ],
+  "bootSequence": [
+    "[OK] Loading kernel modules...",
+    "[OK] Initializing network interfaces...",
+    "[OK] Mounting filesystems...",
+    "[OK] Starting SSH daemon...",
+    "[OK] Loading portfolio data...",
+    "[OK] System ready."
+  ],
+  "techTags": [
+    "C++",
+    "Python",
+    "Java",
+    "C",
+    "JavaScript",
+    "Typescript"
+  ],
+  "socialLinks": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/Hema-Varshini",
+      "icon": "github"
+    },
+    {
+      "label": "Email",
+      "url": "mailto:hemavarshinip.31@gmail.com",
+      "icon": "email"
+    }
+  ],
+  "resumeUrl": "",
+  "stats": {
+    "experience": "4+ years",
+    "projects": 7,
+    "commits": "500+"
+  }
+}

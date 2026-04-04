@@ -1,0 +1,107 @@
+{
+  "heading": "$ ps aux --sort=start_time",
+  "positions": [
+    {
+      "pid": "1337",
+      "company": "Motorola Solutions",
+      "title": "Software Engineer Co-op",
+      "location": "",
+      "startDate": "Jan 2025",
+      "endDate": "Aug 2025",
+      "status": "STOPPED",
+      "description": "Leveraged modern C++ features such as mutexes, lock guards, smart pointers, optional types, and lambdas to implement thread-safe and memory-safe components in embedded and concurrent systems. Utilized functional programming patterns and modular design to improve code reuse, maintainability, and reliability in long-running applications. Developed a targeted auto-tracking system in C++ that tracks a specific object/person based on a metadata ID entered via console, using event-driven callbacks and thread-safe state management. Built a C++ frame-rate monitoring module that reported real-time FPS metrics. Led a cross-functional hackathon team to develop a Python-based HSV + K-Means model for license-plate color classification. Used gRPC to design a client–server communication layer between cameras. Implemented TCP/UDP networking and streaming pipelines for multi-camera systems on Linux.",
+      "achievements": [
+        "Leveraged modern C++ features such as mutexes, lock guards, smart pointers, optional types, and lambdas to implement thread-safe and memory-safe components in embedded and concurrent systems.",
+        "Utilized functional programming patterns and modular design to improve code reuse, maintainability, and reliability in long-running applications.",
+        "Developed a targeted auto-tracking system in C++ that tracks a specific object/person based on a metadata ID entered via console, using event-driven callbacks and thread-safe state management.",
+        "Built a C++ frame-rate monitoring module that reported real-time FPS metrics.",
+        "Led a cross-functional hackathon team to develop a Python-based HSV + K-Means model for license-plate color classification."
+      ],
+      "technologies": [
+        "C++",
+        "Python",
+        "gRPC",
+        "TCP/UDP",
+        "Linux",
+        "tcpdump"
+      ]
+    },
+    {
+      "pid": "1237",
+      "company": "Accenture",
+      "title": "Software Development Engineer",
+      "location": "",
+      "startDate": "Jun 2021",
+      "endDate": "Jul 2023",
+      "status": "STOPPED",
+      "description": "Led full-cycle development of healthcare e-commerce applications using Spring Boot microservices. Designed microservices using Streams API and lambdas for functional data processing, and ExecutorService with CompletableFuture for concurrency. Applied Singleton patterns, Spring Security, Hibernate, and Maven/Gradle with JUnit. Developed an Insurance Claims Fraud Monitoring system leveraging Kafka and Spark streaming pipelines and integrating Hadoop and Elasticsearch. Constructed cloud-native microservices containerized with Docker and deployed on AWS EC2, using S3 and RDS. Implemented IAM and CloudWatch. Optimized system performance by redesigning data structures, caching in Redis, and tuning SQL. Enhanced user experience through A/B testing and responsive UI/UX design using Angular.",
+      "achievements": [
+        "Led full-cycle development of healthcare e-commerce applications using Spring Boot microservices.",
+        "Designed microservices using Streams API and lambdas for functional data processing, and ExecutorService with CompletableFuture for concurrency.",
+        "Applied Singleton patterns, Spring Security, Hibernate, and Maven/Gradle with JUnit.",
+        "Developed an Insurance Claims Fraud Monitoring system leveraging Kafka and Spark streaming pipelines and integrating Hadoop and Elasticsearch.",
+        "Constructed cloud-native microservices containerized with Docker and deployed on AWS EC2, using S3 and RDS."
+      ],
+      "technologies": [
+        "Spring Boot",
+        "Java",
+        "Hibernate",
+        "Kafka",
+        "Spark",
+        "Hadoop",
+        "Elasticsearch",
+        "Docker",
+        "AWS EC2",
+        "S3",
+        "RDS",
+        "IAM",
+        "CloudWatch",
+        "Redis",
+        "SQL",
+        "JUnit4",
+        "Angular"
+      ]
+    },
+    {
+      "pid": "1137",
+      "company": "Conduent",
+      "title": "Software Engineer Intern",
+      "location": "",
+      "startDate": "Mar 2021",
+      "endDate": "Jun 2021",
+      "status": "STOPPED",
+      "description": "Optimized C++ document-management algorithms using data structures, multithreading, and memory tuning, leveraging Azure Monitor and Application Insights. Designed a modular C++ plugin architecture deployed on Azure App Services.",
+      "achievements": [
+        "Optimized C++ document-management algorithms using data structures, multithreading, and memory tuning, leveraging Azure Monitor and Application Insights.",
+        "Designed a modular C++ plugin architecture deployed on Azure App Services."
+      ],
+      "technologies": [
+        "C++",
+        "Azure Monitor",
+        "Application Insights",
+        "Azure App Services"
+      ]
+    },
+    {
+      "pid": "1037",
+      "company": "Technocolabs",
+      "title": "Machine Learning Developer Intern",
+      "location": "",
+      "startDate": "Sep 2020",
+      "endDate": "Oct 2020",
+      "status": "STOPPED",
+      "description": "Generated a Credit Card Default Predictor using XGBoost, Random Forest, and Logistic Regression. Built ETL pipelines on AWS to process credit card transaction and customer demographic data, and created interactive Tableau dashboards.",
+      "achievements": [
+        "Generated a Credit Card Default Predictor using XGBoost, Random Forest, and Logistic Regression.",
+        "Built ETL pipelines on AWS to process credit card transaction and customer demographic data, and created interactive Tableau dashboards."
+      ],
+      "technologies": [
+        "XGBoost",
+        "Random Forest",
+        "Logistic Regression",
+        "AWS",
+        "Tableau"
+      ]
+    }
+  ]
+}
