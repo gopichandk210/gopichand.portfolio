@@ -123,14 +123,14 @@
 
       for (var i = 0; i < drops.length; i++) {
         var c = chars[Math.floor(Math.random() * chars.length)];
-        // Lead character in green
-        ctx.fillStyle = 'rgba(40, 200, 64, 0.2)';
+        // Lead character in blue
+        ctx.fillStyle = 'rgba(116, 185, 255, 0.22)';
         ctx.fillText(c, i * fontSize, drops[i] * fontSize);
 
-        // Trail character in dimmer green
+        // Trail character in dimmer blue
         if (drops[i] > 1) {
           var tc = chars[Math.floor(Math.random() * chars.length)];
-          ctx.fillStyle = 'rgba(40, 200, 64, 0.08)';
+          ctx.fillStyle = 'rgba(116, 185, 255, 0.08)';
           ctx.fillText(tc, i * fontSize, (drops[i] - 1) * fontSize);
         }
 
@@ -388,7 +388,7 @@
             '<span>' + esc(pos.startDate) + ' - ' + esc(pos.endDate || 'Present') + '</span>' +
             (pos.location ? '<span>' + esc(pos.location) + '</span>' : '') +
           '</div>' +
-          '<div class="exp-description">' + esc(pos.description) + '</div>' +
+          (achieveHTML ? '' : '<div class="exp-description">' + esc(pos.description) + '</div>') +
           achieveHTML +
           techHTML +
         '</div>' +
@@ -409,9 +409,24 @@
       cardGrid.innerHTML = (skillsData.categories || []).map(function (cat) {
         return '<div class="skill-category-card">' +
           '<div class="skill-category-name">' + esc(cat.name) + '</div>' +
-          '<div class="skill-tags">' +
-            (cat.items || []).map(function (s) {
-              return '<span class="skill-tag">' + esc(s) + '</span>';
+          '<div class="skill-list">' +
+            (cat.items || []).map(function (item) {
+              var skill = typeof item === 'string' ? { name: item } : item;
+              var level = skill.level != null ? Number(skill.level) : null;
+              var safeLevel = level == null || Number.isNaN(level) ? null : Math.max(0, Math.min(100, level));
+              var levelHTML = safeLevel != null
+                ? '<span class="skill-level">' + esc(safeLevel) + '%</span>'
+                : '';
+              var barHTML = safeLevel != null
+                ? '<div class="skill-meter"><span class="skill-meter-fill" style="width:' + safeLevel + '%"></span></div>'
+                : '';
+              return '<div class="skill-row">' +
+                '<div class="skill-row-top">' +
+                  '<span class="skill-name">' + esc(skill.name) + '</span>' +
+                  levelHTML +
+                '</div>' +
+                barHTML +
+              '</div>';
             }).join('') +
           '</div>' +
         '</div>';
@@ -656,12 +671,12 @@
     var commands = {
       help: function () {
         return '<div style="display:grid;grid-template-columns:100px 1fr;gap:0.3rem">' +
-          '<span style="color:#28c840">about</span><span>Learn about me</span>' +
-          '<span style="color:#28c840">skills</span><span>View technical skills</span>' +
-          '<span style="color:#28c840">projects</span><span>List projects</span>' +
-          '<span style="color:#28c840">contact</span><span>How to reach me</span>' +
-          '<span style="color:#28c840">clear</span><span>Clear the terminal</span>' +
-          '<span style="color:#28c840">exit</span><span>Close terminal</span></div>';
+          '<span style="color:#74b9ff">about</span><span>Learn about me</span>' +
+          '<span style="color:#74b9ff">skills</span><span>View technical skills</span>' +
+          '<span style="color:#74b9ff">projects</span><span>List projects</span>' +
+          '<span style="color:#74b9ff">contact</span><span>How to reach me</span>' +
+          '<span style="color:#74b9ff">clear</span><span>Clear the terminal</span>' +
+          '<span style="color:#74b9ff">exit</span><span>Close terminal</span></div>';
       },
       about: function () { return aboutData && aboutData.bio ? aboutData.bio.map(esc).join('<br><br>') : 'No about data.'; },
       skills: function () {
@@ -692,12 +707,12 @@
     function processCommand(cmd) {
       var trimmed = cmd.trim().toLowerCase();
       if (commands[trimmed]) return { type: 'response', html: commands[trimmed]() };
-      if (trimmed.match(/^(hi|hello|hey)/)) return { type: 'response', html: 'Hello! Type <span style="color:#28c840">help</span> for commands.' };
+      if (trimmed.match(/^(hi|hello|hey)/)) return { type: 'response', html: 'Hello! Type <span style="color:#74b9ff">help</span> for commands.' };
       if (trimmed.match(/(who|about|author)/)) return { type: 'response', html: commands.about() };
       if (trimmed.match(/(skill|stack|tech)/)) return { type: 'response', html: commands.skills() };
       if (trimmed.match(/(project|work|app)/)) return { type: 'response', html: commands.projects() };
       if (trimmed.match(/(contact|email|reach|hire)/)) return { type: 'response', html: commands.contact() };
-      return { type: 'error', html: 'Command not found. Type <span style="color:#28c840">help</span> for commands.' };
+      return { type: 'error', html: 'Command not found. Type <span style="color:#74b9ff">help</span> for commands.' };
     }
 
     function appendToTerminal(type, html) {

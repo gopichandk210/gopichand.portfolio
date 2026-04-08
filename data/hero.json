@@ -7,10 +7,9 @@
   "name": "Hema Varshini Perla",
   "tagline": "Available for work",
   "roles": [
-    "Software Engineer",
-    "Software Engineer Co-op",
     "Software Development Engineer",
-    "Software Engineer Intern"
+    "Embedded software engineer",
+    "AI/ML engineer"
   ],
   "bootSequence": [
     "[OK] Loading kernel modules...",
@@ -42,7 +41,7 @@
   ],
   "resumeUrl": "",
   "stats": {
-    "experience": "4+ years",
+    "experience": "3+ years",
     "projects": 7,
     "commits": "500+"
   }
