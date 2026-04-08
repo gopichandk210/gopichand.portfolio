@@ -406,14 +406,16 @@
     // Render card grid
     var cardGrid = $('skills-card-grid');
     if (cardGrid) {
-      cardGrid.innerHTML = (skillsData.categories || []).map(function (cat) {
+      var categories = Array.isArray(skillsData.categories) ? skillsData.categories : [];
+      cardGrid.innerHTML = categories.map(function (cat) {
+        var items = Array.isArray(cat.items) ? cat.items : [];
         return '<div class="skill-category-card">' +
           '<div class="skill-category-name">' + esc(cat.name) + '</div>' +
           '<div class="skill-list">' +
-            (cat.items || []).map(function (item) {
+            items.map(function (item) {
               var skill = typeof item === 'string' ? { name: item } : item;
               var level = skill.level != null ? Number(skill.level) : null;
-              var safeLevel = level == null || Number.isNaN(level) ? null : Math.max(0, Math.min(100, level));
+              var safeLevel = (level == null || isNaN(level)) ? null : Math.max(0, Math.min(100, level));
               var levelHTML = safeLevel != null
                 ? '<span class="skill-level">' + esc(safeLevel) + '%</span>'
                 : '';
@@ -422,7 +424,7 @@
                 : '';
               return '<div class="skill-row">' +
                 '<div class="skill-row-top">' +
-                  '<span class="skill-name">' + esc(skill.name) + '</span>' +
+                  '<span class="skill-row-name">' + esc(skill.name || '') + '</span>' +
                   levelHTML +
                 '</div>' +
                 barHTML +
@@ -431,6 +433,10 @@
           '</div>' +
         '</div>';
       }).join('');
+
+      if (!cardGrid.innerHTML.trim()) {
+        cardGrid.innerHTML = '<div class="skill-category-card"><div class="skill-category-name">skills</div><div class="skill-list"><div class="skill-row"><div class="skill-row-top"><span class="skill-row-name">Unable to render skills</span></div></div></div></div>';
+      }
     }
 
     // GitHub contribution graph (monochrome)
@@ -682,7 +688,11 @@
       skills: function () {
         if (!skillsData || !skillsData.categories) return 'No skills data.';
         return skillsData.categories.map(function (cat) {
-          return '<span style="color:#58a6ff">' + esc(cat.name) + '</span>  ' + cat.items.map(esc).join(', ');
+          var items = Array.isArray(cat.items) ? cat.items : [];
+          return '<span style="color:#58a6ff">' + esc(cat.name) + '</span>  ' + items.map(function (item) {
+            var skill = typeof item === 'string' ? { name: item } : item;
+            return esc(skill.name || '');
+          }).join(', ');
         }).join('<br>');
       },
       projects: function () {
