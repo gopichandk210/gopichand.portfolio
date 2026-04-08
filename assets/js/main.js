@@ -312,7 +312,7 @@
     if (!aboutData) return;
 
     var heading = $('about-heading');
-    if (heading) heading.textContent = 'About me.';
+    if (heading) heading.textContent = 'About Me';
 
     // Avatar
     var avatarWrap = $('about-avatar-wrap');
@@ -354,7 +354,7 @@
     if (!expData) return;
 
     var heading = $('experience-heading');
-    if (heading) heading.textContent = 'Experience.';
+    if (heading) heading.textContent = 'Experience';
 
     var list = $('experience-list');
     if (!list) return;
@@ -401,7 +401,7 @@
     if (!skillsData) return;
 
     var heading = $('skills-heading');
-    if (heading) heading.textContent = 'Technical Skills.';
+    if (heading) heading.textContent = 'Technical Skills';
 
     // Render card grid
     var cardGrid = $('skills-card-grid');
@@ -461,7 +461,7 @@
     if (!projData) return;
 
     var heading = $('projects-heading');
-    if (heading) heading.textContent = 'Projects.';
+    if (heading) heading.textContent = 'Projects';
 
     var grid = $('projects-grid');
     if (!grid) return;
@@ -501,7 +501,7 @@
     if (!eduData) return;
 
     var heading = $('education-heading');
-    if (heading) heading.textContent = 'Education.';
+    if (heading) heading.textContent = 'Education';
 
     var list = $('education-list');
     if (!list) return;
@@ -542,7 +542,7 @@
     if (!contactData) return;
 
     var heading = $('contact-heading');
-    if (heading) heading.textContent = 'Get in Touch.';
+    if (heading) heading.textContent = 'Get in Touch';
 
     var info = $('contact-info');
     if (!info) return;
@@ -706,6 +706,7 @@
         if (!contactData) return 'No contact data.';
         var lines = '';
         if (contactData.email) lines += 'Email: <a href="mailto:' + esc(contactData.email) + '" class="cmd-link">' + esc(contactData.email) + '</a><br>';
+        if (contactData.phone) lines += 'Phone: <a href="tel:' + esc(contactData.phone.replace(/[^+\d]/g, '')) + '" class="cmd-link">' + esc(contactData.phone) + '</a><br>';
         if (contactData.socialLinks) {
           if (contactData.socialLinks.github) lines += 'GitHub: <a href="' + esc(contactData.socialLinks.github) + '" target="_blank" class="cmd-link">' + esc(contactData.socialLinks.github) + '</a><br>';
           if (contactData.socialLinks.linkedin) lines += 'LinkedIn: <a href="' + esc(contactData.socialLinks.linkedin) + '" target="_blank" class="cmd-link">' + esc(contactData.socialLinks.linkedin) + '</a>';
