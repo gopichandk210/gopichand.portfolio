@@ -338,6 +338,17 @@
       }).join('');
     }
 
+    var summary = $('about-summary');
+    if (summary && aboutData.summary) {
+      summary.innerHTML =
+        '<div class="about-summary-card">' +
+          '<span class="about-summary-label">Summary</span>' +
+          '<p>' + esc(aboutData.summary) + '</p>' +
+        '</div>';
+    } else if (summary) {
+      summary.innerHTML = '';
+    }
+
     var highlights = $('about-highlights');
     if (highlights && aboutData.highlights) {
       highlights.innerHTML = aboutData.highlights.map(function (h) {
@@ -403,43 +414,38 @@
     var heading = $('skills-heading');
     if (heading) heading.textContent = 'Technical Skills';
 
-    // Render card grid
     var cardGrid = $('skills-card-grid');
     if (cardGrid) {
       var categories = Array.isArray(skillsData.categories) ? skillsData.categories : [];
       cardGrid.innerHTML = categories.map(function (cat) {
         var items = Array.isArray(cat.items) ? cat.items : [];
         return '<div class="skill-category-card">' +
-          '<div class="skill-category-name">' + esc(cat.name) + '</div>' +
-          '<div class="skill-list">' +
+          '<div class="skill-category-header">' +
+            '<div class="skill-category-name">' + esc(cat.name) + '</div>' +
+            '<span class="skill-category-count">' + items.length + '</span>' +
+          '</div>' +
+          '<div class="skill-pills">' +
             items.map(function (item) {
               var skill = typeof item === 'string' ? { name: item } : item;
               var level = skill.level != null ? Number(skill.level) : null;
               var safeLevel = (level == null || isNaN(level)) ? null : Math.max(0, Math.min(100, level));
-              var levelHTML = safeLevel != null
-                ? '<span class="skill-level">' + esc(safeLevel) + '%</span>'
+              var levelBadge = safeLevel != null
+                ? '<span class="skill-pill-level">' + esc(safeLevel) + '%</span>'
                 : '';
-              var barHTML = safeLevel != null
-                ? '<div class="skill-meter"><span class="skill-meter-fill" style="width:' + safeLevel + '%"></span></div>'
-                : '';
-              return '<div class="skill-row">' +
-                '<div class="skill-row-top">' +
-                  '<span class="skill-row-name">' + esc(skill.name || '') + '</span>' +
-                  levelHTML +
-                '</div>' +
-                barHTML +
-              '</div>';
+              return '<span class="skill-pill">' +
+                '<span class="skill-pill-name">' + esc(skill.name || '') + '</span>' +
+                levelBadge +
+              '</span>';
             }).join('') +
           '</div>' +
         '</div>';
       }).join('');
 
       if (!cardGrid.innerHTML.trim()) {
-        cardGrid.innerHTML = '<div class="skill-category-card"><div class="skill-category-name">skills</div><div class="skill-list"><div class="skill-row"><div class="skill-row-top"><span class="skill-row-name">Unable to render skills</span></div></div></div></div>';
+        cardGrid.innerHTML = '<div class="skill-category-card"><div class="skill-category-header"><div class="skill-category-name">skills</div><span class="skill-category-count">0</span></div><div class="skill-pills"><span class="skill-pill"><span class="skill-pill-name">Unable to render skills</span></span></div></div>';
       }
     }
 
-    // GitHub contribution graph (monochrome)
     var contribGrid = $('contribution-grid');
     if (contribGrid) {
       var weeks = 52;

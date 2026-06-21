@@ -1,8 +1,10 @@
 {
   "heading": "$ cat about.md",
+  "summary": "Software engineer focused on building reliable backend systems, automation workflows, and AI-powered products that improve speed, quality, and developer productivity.",
   "bio": [
-    "Software engineer with 4+ years of experience building scalable backend systems, workflow automation platforms, and AI-enabled tools for cloud, telecom, and enterprise environments.",
-    "I enjoy turning complex problems into reliable, production-ready solutions using Python, APIs, automation, and data-driven engineering practices."
+    "Software engineer with 4+ years of experience designing scalable backend systems, automation platforms, and AI-enabled tools for cloud, telecom, and enterprise environments.",
+    "I enjoy turning complex requirements into practical, production-ready solutions using Python, APIs, data pipelines, and thoughtful engineering practices.",
+    "My work spans system design, workflow optimization, experimentation, and collaboration across engineering and product teams."
   ],
   "highlights": [
     {
@@ -10,7 +12,7 @@
       "value": "4+"
     },
     {
-      "label": "Projects Completed",
+      "label": "Projects Delivered",
       "value": "4+"
     },
     {
