@@ -1,23 +1,23 @@
 {
   "heading": "$ cat about.md",
   "bio": [
-    "A motivated software developer with a strong interest in building scalable web applications, backend systems, and data-driven solutions.",
-    "Passionate about learning modern technologies and creating practical, user-focused products."
+    "Software engineer with 4+ years of experience building scalable backend systems, workflow automation platforms, and AI-enabled tools for cloud, telecom, and enterprise environments.",
+    "I enjoy turning complex problems into reliable, production-ready solutions using Python, APIs, automation, and data-driven engineering practices."
   ],
   "highlights": [
     {
       "label": "Years Experience",
-      "value": "2+"
+      "value": "4+"
     },
     {
       "label": "Projects Completed",
-      "value": "7+"
+      "value": "4+"
     },
     {
-      "label": "Technologies",
-      "value": "20+"
+      "label": "Core Focus",
+      "value": "Backend + AI"
     }
   ],
-  "avatarUrl": "assets/images/hema-varshini-photo.jpeg",
-  "currentFocus": "Software Development Engineer"
+  "avatarUrl": "",
+  "currentFocus": "Software Engineer"
 }

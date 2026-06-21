@@ -6,23 +6,23 @@
       "permissions": "drwxr-xr-x",
       "items": [
         {
-          "name": "Java",
-          "level": 90
-        },
-        {
           "name": "Python",
-          "level": 88
-        },
-        {
-          "name": "JavaScript",
-          "level": 85
+          "level": 95
         },
         {
           "name": "SQL",
-          "level": 82
+          "level": 92
         },
         {
-          "name": "TypeScript",
+          "name": "JavaScript",
+          "level": 86
+        },
+        {
+          "name": "Java",
+          "level": 80
+        },
+        {
+          "name": "C++",
           "level": 78
         }
       ]
@@ -32,24 +32,36 @@
       "permissions": "drwxr-xr-x",
       "items": [
         {
-          "name": "Spring Boot",
+          "name": "FastAPI",
+          "level": 93
+        },
+        {
+          "name": "REST APIs",
+          "level": 94
+        },
+        {
+          "name": "Microservices",
           "level": 90
         },
         {
-          "name": "Node.js",
+          "name": "gRPC",
+          "level": 84
+        },
+        {
+          "name": "LangChain",
+          "level": 88
+        },
+        {
+          "name": "LangGraph",
+          "level": 84
+        },
+        {
+          "name": "Pydantic",
+          "level": 90
+        },
+        {
+          "name": "Streamlit",
           "level": 82
-        },
-        {
-          "name": "React",
-          "level": 78
-        },
-        {
-          "name": "Express",
-          "level": 76
-        },
-        {
-          "name": "Django",
-          "level": 74
         }
       ]
     },
@@ -59,23 +71,39 @@
       "items": [
         {
           "name": "Git",
-          "level": 90
+          "level": 93
         },
         {
           "name": "Docker",
-          "level": 84
+          "level": 88
+        },
+        {
+          "name": "Kubernetes",
+          "level": 82
+        },
+        {
+          "name": "Jenkins",
+          "level": 87
+        },
+        {
+          "name": "GitHub Actions",
+          "level": 85
+        },
+        {
+          "name": "Terraform",
+          "level": 78
         },
         {
           "name": "Postman",
+          "level": 88
+        },
+        {
+          "name": "Jupyter",
           "level": 86
         },
         {
           "name": "Jira",
-          "level": 80
-        },
-        {
-          "name": "VS Code",
-          "level": 88
+          "level": 82
         }
       ]
     },
@@ -85,26 +113,70 @@
       "items": [
         {
           "name": "AWS",
+          "level": 88
+        },
+        {
+          "name": "GCP",
           "level": 80
         },
         {
-          "name": "Linux",
+          "name": "PostgreSQL",
           "level": 86
-        },
-        {
-          "name": "MongoDB",
-          "level": 76
         },
         {
           "name": "MySQL",
           "level": 84
         },
         {
-          "name": "REST APIs",
+          "name": "Pandas",
+          "level": 90
+        },
+        {
+          "name": "NumPy",
           "level": 88
+        },
+        {
+          "name": "Spark",
+          "level": 80
+        },
+        {
+          "name": "LLMs",
+          "level": 92
+        },
+        {
+          "name": "RAG",
+          "level": 89
+        },
+        {
+          "name": "OpenAI API",
+          "level": 88
+        },
+        {
+          "name": "Claude",
+          "level": 84
+        },
+        {
+          "name": "XGBoost",
+          "level": 86
+        },
+        {
+          "name": "PyTorch",
+          "level": 82
+        },
+        {
+          "name": "TensorFlow",
+          "level": 78
+        },
+        {
+          "name": "MLOps",
+          "level": 86
+        },
+        {
+          "name": "ETL",
+          "level": 84
         }
       ]
     }
   ],
-  "githubUsername": "gopichand"
+  "githubUsername": "gopichandk210"
 }

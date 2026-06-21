@@ -3,104 +3,100 @@
   "positions": [
     {
       "pid": "1337",
-      "company": "Motorola Solutions",
-      "title": "Software Engineer Co-op",
-      "location": "",
-      "startDate": "Jan 2025",
-      "endDate": "Aug 2025",
-      "status": "STOPPED",
-      "description": "Leveraged modern C++ features such as mutexes, lock guards, smart pointers, optional types, and lambdas to implement thread-safe and memory-safe components in embedded and concurrent systems. Utilized functional programming patterns and modular design to improve code reuse, maintainability, and reliability in long-running applications. Developed a targeted auto-tracking system in C++ that tracks a specific object/person based on a metadata ID entered via console, using event-driven callbacks and thread-safe state management. Built a C++ frame-rate monitoring module that reported real-time FPS metrics. Led a cross-functional hackathon team to develop a Python-based HSV + K-Means model for license-plate color classification. Used gRPC to design a client–server communication layer between cameras. Implemented TCP/UDP networking and streaming pipelines for multi-camera systems on Linux.",
+      "company": "AT&T",
+      "title": "Software Development Engineer, GenAI & Automation",
+      "location": "Middletown, NJ",
+      "startDate": "Jan 2026",
+      "endDate": "Present",
+      "status": "ACTIVE",
+      "description": "Built Python automation services for development, debugging, deployment checks, and release validation by packaging logs, configuration data, and run context into reusable engineering workflows. Developed agentic AI workflows using planner-executor patterns, tool registry design, MCP-style tool adapters, stateful context management, retry handling, and traceable execution logs.",
       "achievements": [
-        "Leveraged modern C++ features such as mutexes, lock guards, smart pointers, optional types, and lambdas to implement thread-safe and memory-safe components in embedded and concurrent systems.",
-        "Utilized functional programming patterns and modular design to improve code reuse, maintainability, and reliability in long-running applications.",
-        "Developed a targeted auto-tracking system in C++ that tracks a specific object/person based on a metadata ID entered via console, using event-driven callbacks and thread-safe state management.",
-        "Built a C++ frame-rate monitoring module that reported real-time FPS metrics.",
-        "Led a cross-functional hackathon team to develop a Python-based HSV + K-Means model for license-plate color classification."
+        "Built Python automation services for development, debugging, deployment checks, and release validation workflows.",
+        "Developed AI-driven validation flows with structured prompts, tool-calling adapters, guardrails, retry handling, and execution traces.",
+        "Designed FastAPI REST endpoints and UI integrations to trigger regression runs and track execution status through an internal portal.",
+        "Integrated Jenkins CI/CD pipelines to auto-trigger builds and publish release certification reports."
       ],
       "technologies": [
-        "C++",
         "Python",
-        "gRPC",
-        "TCP/UDP",
-        "Linux",
-        "tcpdump"
+        "FastAPI",
+        "Jenkins",
+        "CI/CD",
+        "LLMs",
+        "MCP"
       ]
     },
     {
       "pid": "1237",
-      "company": "Accenture",
-      "title": "Software Development Engineer",
-      "location": "",
-      "startDate": "Jun 2021",
-      "endDate": "Jul 2023",
+      "company": "Verizon",
+      "title": "Software Engineer, AI Platform",
+      "location": "Dallas, TX",
+      "startDate": "Aug 2025",
+      "endDate": "Dec 2025",
       "status": "STOPPED",
-      "description": "Led full-cycle development of healthcare e-commerce applications using Spring Boot microservices. Designed microservices using Streams API and lambdas for functional data processing, and ExecutorService with CompletableFuture for concurrency. Applied Singleton patterns, Spring Security, Hibernate, and Maven/Gradle with JUnit. Developed an Insurance Claims Fraud Monitoring system leveraging Kafka and Spark streaming pipelines and integrating Hadoop and Elasticsearch. Constructed cloud-native microservices containerized with Docker and deployed on AWS EC2, using S3 and RDS. Implemented IAM and CloudWatch. Optimized system performance by redesigning data structures, caching in Redis, and tuning SQL. Enhanced user experience through A/B testing and responsive UI/UX design using Angular.",
+      "description": "Built an LLM-powered incident-triage assistant for cloud operations, enabling structured RCA, query handling, troubleshooting support, and investigation workflows across AWS, Azure, and GCP environments.",
       "achievements": [
-        "Led full-cycle development of healthcare e-commerce applications using Spring Boot microservices.",
-        "Designed microservices using Streams API and lambdas for functional data processing, and ExecutorService with CompletableFuture for concurrency.",
-        "Applied Singleton patterns, Spring Security, Hibernate, and Maven/Gradle with JUnit.",
-        "Developed an Insurance Claims Fraud Monitoring system leveraging Kafka and Spark streaming pipelines and integrating Hadoop and Elasticsearch.",
-        "Constructed cloud-native microservices containerized with Docker and deployed on AWS EC2, using S3 and RDS."
+        "Developed Python-based intent routing and tool-selection logic for cloud operations workflows.",
+        "Built RAG pipeline components using embeddings, vector retrieval, and knowledge-base context.",
+        "Containerized AI workflow services with Docker and supported Kubernetes-based deployment cycles."
       ],
       "technologies": [
-        "Spring Boot",
-        "Java",
-        "Hibernate",
-        "Kafka",
-        "Spark",
-        "Hadoop",
-        "Elasticsearch",
+        "Python",
+        "LLMs",
+        "RAG",
         "Docker",
-        "AWS EC2",
-        "S3",
-        "RDS",
-        "IAM",
-        "CloudWatch",
-        "Redis",
-        "SQL",
-        "JUnit4",
-        "Angular"
+        "Kubernetes",
+        "AWS",
+        "Azure",
+        "GCP"
       ]
     },
     {
       "pid": "1137",
-      "company": "Conduent",
-      "title": "Software Engineer Intern",
-      "location": "",
-      "startDate": "Mar 2021",
-      "endDate": "Jun 2021",
+      "company": "MassDOT",
+      "title": "Machine Learning Engineer Co-op",
+      "location": "Boston, MA",
+      "startDate": "Jan 2024",
+      "endDate": "Aug 2024",
       "status": "STOPPED",
-      "description": "Optimized C++ document-management algorithms using data structures, multithreading, and memory tuning, leveraging Azure Monitor and Application Insights. Designed a modular C++ plugin architecture deployed on Azure App Services.",
+      "description": "Built ML-ready HR analytics datasets from years of HR/ERP data and developed forecasting workflows using machine learning and time-series models to improve workforce planning insights.",
       "achievements": [
-        "Optimized C++ document-management algorithms using data structures, multithreading, and memory tuning, leveraging Azure Monitor and Application Insights.",
-        "Designed a modular C++ plugin architecture deployed on Azure App Services."
+        "Engineered HR analytics datasets and standardized records for workforce planning models.",
+        "Developed attrition-risk, leave-usage, and turnover forecasting workflows using XGBoost, ARIMA, Prophet, and LSTM.",
+        "Applied NLP and GenAI-assisted text analysis to employee feedback to extract retention insights.",
+        "Delivered dashboards in Power BI and QuickSight that reduced reporting time and refresh latency."
       ],
       "technologies": [
-        "C++",
-        "Azure Monitor",
-        "Application Insights",
-        "Azure App Services"
+        "Python",
+        "XGBoost",
+        "ARIMA",
+        "Prophet",
+        "LSTM",
+        "Power BI",
+        "QuickSight"
       ]
     },
     {
       "pid": "1037",
-      "company": "Technocolabs",
-      "title": "Machine Learning Developer Intern",
-      "location": "",
-      "startDate": "Sep 2020",
-      "endDate": "Oct 2020",
+      "company": "Cognizant (Client: Ford Motor Company)",
+      "title": "Software Engineer, Full Stack",
+      "location": "India",
+      "startDate": "Feb 2021",
+      "endDate": "Dec 2022",
       "status": "STOPPED",
-      "description": "Generated a Credit Card Default Predictor using XGBoost, Random Forest, and Logistic Regression. Built ETL pipelines on AWS to process credit card transaction and customer demographic data, and created interactive Tableau dashboards.",
+      "description": "Built a Python-based vehicle feature configuration service and developed REST APIs with rule-validation workflows to support self-service packaging processes.",
       "achievements": [
-        "Generated a Credit Card Default Predictor using XGBoost, Random Forest, and Logistic Regression.",
-        "Built ETL pipelines on AWS to process credit card transaction and customer demographic data, and created interactive Tableau dashboards."
+        "Developed Python REST APIs with schema validation, exception handling, and centralized business-rule logic.",
+        "Implemented a rule-validation engine for feature dependencies and configuration constraints.",
+        "Created batch-processing jobs for data ingestion, reconciliation, and scheduled reporting.",
+        "Optimized data access and improved backend performance using SQL tuning, caching, and Docker packaging."
       ],
       "technologies": [
-        "XGBoost",
-        "Random Forest",
-        "Logistic Regression",
-        "AWS",
-        "Tableau"
+        "Python",
+        "REST APIs",
+        "SQL",
+        "Redis",
+        "Docker",
+        "AWS"
       ]
     }
   ]

@@ -2,26 +2,25 @@
   "heading": "$ cat /var/log/education.log",
   "entries": [
     {
-      "institution": "Northeastern University, Boston, US",
+      "institution": "Northeastern University, Boston, MA",
       "degree": "Master of Science",
-      "field": "Computer Science",
-      "startDate": "Sep 2023",
-      "endDate": "Dec 2025",
-      "gpa": "3.8/4.0",
+      "field": "Data Analytics Engineering",
+      "startDate": "Jan 2023",
+      "endDate": "May 2025",
+      "gpa": "3.6/4.0",
       "honors": []
     },
     {
-      "institution": "Gandhi Institute of Technology and Management, Visakhapatnam, India",
+      "institution": "GITAM University, Visakhapatnam, India",
       "degree": "Bachelor of Technology",
       "field": "Computer Science and Engineering",
       "startDate": "Jun 2017",
       "endDate": "Jun 2021",
-      "gpa": "3.9/4.0",
+      "gpa": "3.7/4.0",
       "honors": []
     }
   ],
   "certifications": [
-    "AWS Certified Cloud Practitioner",
-    "Object Oriented Programming for Java"
+    "AWS Certified Cloud Practitioner"
   ]
 }

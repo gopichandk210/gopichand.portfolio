@@ -2,201 +2,71 @@
   "heading": "$ find ~/projects -type d -maxdepth 1",
   "projects": [
     {
-      "name": "intelligent-supplychain-management-system",
-      "description": "Personal development project using industry best practices",
-      "technologies": [
-        "JavaScript",
-        "Jupyter Notebook",
-        "Solidity",
-        "Python",
-        "HTML",
-        "CSS"
-      ],
-      "stars": 0,
-      "forks": 0,
-      "language": "JavaScript",
-      "liveUrl": "",
-      "githubUrl": "https://github.com/Hema-Varshini/intelligent-supplychain-management-system",
-      "isNew": false
-    },
-    {
-      "name": "multi-agentic-rag",
-      "description": "Portfolio project showcasing development capabilities",
-      "technologies": [
-        "Python"
-      ],
-      "stars": 0,
-      "forks": 0,
-      "language": "Python",
-      "liveUrl": "",
-      "githubUrl": "https://github.com/Hema-Varshini/multi-agentic-rag",
-      "isNew": false
-    },
-    {
-      "name": "airflow-etl-pipeline",
-      "description": "Learning project built with modern web technologies",
-      "technologies": [
-        "Python"
-      ],
-      "stars": 0,
-      "forks": 0,
-      "language": "Python",
-      "liveUrl": "",
-      "githubUrl": "https://github.com/Hema-Varshini/airflow-etl-pipeline",
-      "isNew": false
-    },
-    {
-      "name": "spring-boot-microservices",
-      "description": "Hands-on learning experience with modern frameworks",
-      "technologies": [
-        "Java"
-      ],
-      "stars": 0,
-      "forks": 0,
-      "language": "Java",
-      "liveUrl": "",
-      "githubUrl": "https://github.com/Hema-Varshini/spring-boot-microservices",
-      "isNew": false
-    },
-    {
-      "name": "ecommerce-recommender",
-      "description": "Learning project built with modern web technologies",
+      "name": "PromptOps - AI Prompt Template Management System",
+      "description": "Built a Python/FastAPI backend for prompt lifecycle management, including CRUD APIs, schema validation, template rendering, versioning, and export workflows for enterprise AI use cases.",
       "technologies": [
         "Python",
-        "HTML",
-        "CSS"
+        "FastAPI",
+        "PostgreSQL",
+        "Jinja2",
+        "Pydantic"
       ],
       "stars": 0,
       "forks": 0,
       "language": "Python",
       "liveUrl": "",
-      "githubUrl": "https://github.com/Hema-Varshini/ecommerce-recommender",
-      "isNew": false
+      "githubUrl": "",
+      "isNew": true
     },
     {
-      "name": "etl-data-pipeline-using-airflow",
-      "description": "Practice repository for exploring advanced features",
+      "name": "Warranty Claim Anomaly Detection Platform",
+      "description": "Designed and implemented anomaly-detection workflows using XGBoost, Isolation Forest, SHAP, and interactive review interfaces to detect unusual claims patterns and improve operational visibility.",
       "technologies": [
-        "Python"
+        "Python",
+        "XGBoost",
+        "FastAPI",
+        "Streamlit",
+        "SHAP"
       ],
       "stars": 0,
       "forks": 0,
       "language": "Python",
       "liveUrl": "",
-      "githubUrl": "https://github.com/Hema-Varshini/etl-data-pipeline-using-airflow",
+      "githubUrl": "",
       "isNew": false
     },
     {
-      "name": "advanced-full-stack-project-with-java-spring-boot-and-react-redux-online-banking",
-      "description": "Full-featured application built as a learning exercise",
+      "name": "Stock Price Forecasting and MLOps Pipeline",
+      "description": "Created an end-to-end forecasting workflow with TensorFlow LSTM models, Dockerized deployment, model validation, monitoring, and rollout practices for reliable production delivery.",
       "technologies": [
-        "Java",
-        "JavaScript",
-        "HTML"
-      ],
-      "stars": 0,
-      "forks": 0,
-      "language": "Java",
-      "liveUrl": "",
-      "githubUrl": "https://github.com/Hema-Varshini/advanced-full-stack-project-with-java-spring-boot-and-react-redux-online-banking",
-      "isNew": false
-    },
-    {
-      "name": "network-intrusion-detection-using-machine-learning",
-      "description": "Personal project for exploring modern development practices",
-      "technologies": [
-        "Jupyter Notebook"
-      ],
-      "stars": 0,
-      "forks": 0,
-      "language": "Jupyter Notebook",
-      "liveUrl": "",
-      "githubUrl": "https://github.com/Hema-Varshini/network-intrusion-detection-using-machine-learning",
-      "isNew": false
-    },
-    {
-      "name": "Lane-Detection-using-Computer-Vision-and-Python",
-      "description": "Lane detection, a critical component of self-driving cars and autonomous vehicles.It is one among the foremost important research topics for driving scene understanding. Once lane positions are obtained, the vehicle will know where to travel and avoid the danger of running into other lanes or getting off the road.",
-      "technologies": [
-        "Python"
+        "Python",
+        "TensorFlow",
+        "Docker",
+        "Vertex AI",
+        "MLOps"
       ],
       "stars": 0,
       "forks": 0,
       "language": "Python",
       "liveUrl": "",
-      "githubUrl": "https://github.com/Hema-Varshini/Lane-Detection-using-Computer-Vision-and-Python",
+      "githubUrl": "",
       "isNew": false
     },
     {
-      "name": "Color-detection",
-      "description": "In this color detection Python project, we are going to build an application through which you can automatically get the name of the color by clicking on them",
+      "name": "Ad Genius - Ad Content Generation Tool",
+      "description": "Prototyped an AI-assisted content generation workflow using LangChain, prompt templates, scoring logic, and dashboard-based campaign iteration for faster creative workflows.",
       "technologies": [
-        "Jupyter Notebook"
+        "Python",
+        "LangChain",
+        "LLMs",
+        "Streamlit",
+        "GCP"
       ],
       "stars": 0,
       "forks": 0,
-      "language": "Jupyter Notebook",
+      "language": "Python",
       "liveUrl": "",
-      "githubUrl": "https://github.com/Hema-Varshini/Color-detection",
-      "isNew": false
-    },
-    {
-      "name": "personal-finance-management-system",
-      "description": "Personal project for exploring modern development practices",
-      "technologies": [],
-      "stars": 0,
-      "forks": 0,
-      "language": "",
-      "liveUrl": "",
-      "githubUrl": "https://github.com/Hema-Varshini/personal-finance-management-system",
-      "isNew": false
-    },
-    {
-      "name": "Image-Manipulation-And-Enhancement-Application",
-      "description": "Created an Image Manipulation app using MVC architecture for visualization, flipping, brightness adjustment, channel tweaks, and enhancements. The app features a user-friendly GUI, scripting interface, batch processing, and undo/redo, achieving 40% time-saving for repetitive tasks.",
-      "technologies": [],
-      "stars": 0,
-      "forks": 0,
-      "language": "",
-      "liveUrl": "",
-      "githubUrl": "https://github.com/Hema-Varshini/Image-Manipulation-And-Enhancement-Application",
-      "isNew": false
-    },
-    {
-      "name": "Student-Management-System-using-Java",
-      "description": "This program is to implement a StudentManagementSystem in which there are several tasks to be performed.",
-      "technologies": [],
-      "stars": 0,
-      "forks": 0,
-      "language": "",
-      "liveUrl": "",
-      "githubUrl": "https://github.com/Hema-Varshini/Student-Management-System-using-Java",
-      "isNew": false
-    },
-    {
-      "name": "Face-Detection",
-      "description": "GitHub repository: Face-Detection",
-      "technologies": [
-        "Jupyter Notebook"
-      ],
-      "stars": 0,
-      "forks": 0,
-      "language": "Jupyter Notebook",
-      "liveUrl": "",
-      "githubUrl": "https://github.com/Hema-Varshini/Face-Detection",
-      "isNew": false
-    },
-    {
-      "name": "Technocolabs-Internship",
-      "description": "GitHub repository: Technocolabs-Internship",
-      "technologies": [
-        "Jupyter Notebook"
-      ],
-      "stars": 0,
-      "forks": 0,
-      "language": "Jupyter Notebook",
-      "liveUrl": "",
-      "githubUrl": "https://github.com/Hema-Varshini/Technocolabs-Internship",
+      "githubUrl": "",
       "isNew": false
     }
   ]

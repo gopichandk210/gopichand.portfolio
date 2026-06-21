@@ -1,10 +1,14 @@
 {
   "heading": "$ mail -s 'Hello' visitor@portfolio",
-  "subheading": "I'm always interested in hearing about new projects and opportunities. Let's connect.",
-  "email": "gopichand@example.com",
-  "phone": "+1 (000)-000-0000",
-  "location": "Open to Relocate",
+  "subheading": "I’m always interested in hearing about new projects and opportunities. Let’s connect.",
+  "email": "gopi.kandikonda21@gmail.com",
+  "phone": "+1 (857)-334-2502",
+  "location": "New York, Open to Relocate",
   "availability": "Open to opportunities",
-  "socialLinks": {},
+  "socialLinks": {
+    "github": "https://github.com/gopichandk210",
+    "linkedin": "https://www.linkedin.com/in/gopichand-kandikonda-0042281a7/",
+    "external": "https://gopichandk210.github.io/gopichand.portfolio"
+  },
   "formAction": ""
 }

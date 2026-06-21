@@ -1,15 +1,15 @@
 {
   "asciiName": [
-    "=======================",
-    "     Gopichand         ",
-    "======================="
+    "=========================",
+    "   Gopichand Kandikonda  ",
+    "========================="
   ],
-  "name": "Gopichand",
+  "name": "Gopichand Kandikonda",
   "tagline": "Available for work",
   "roles": [
-    "Software Development Engineer",
-    "Backend Developer",
-    "AI/ML Enthusiast"
+    "Software Engineer",
+    "AI/ML Engineer",
+    "Backend & Automation Engineer"
   ],
   "bootSequence": [
     "[OK] Loading kernel modules...",
@@ -20,28 +20,34 @@
     "[OK] System ready."
   ],
   "techTags": [
-    "Java",
     "Python",
-    "JavaScript",
-    "Spring Boot",
-    "AWS"
+    "FastAPI",
+    "SQL",
+    "AWS",
+    "LLMs",
+    "Docker"
   ],
   "socialLinks": [
     {
       "label": "GitHub",
-      "url": "https://github.com/gopichand",
+      "url": "https://github.com/gopichandk210",
       "icon": "github"
     },
     {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/gopichand-kandikonda-0042281a7/",
+      "icon": "linkedin"
+    },
+    {
       "label": "Email",
-      "url": "mailto:gopichand@example.com",
+      "url": "mailto:gopi.kandikonda21@gmail.com",
       "icon": "email"
     }
   ],
   "resumeUrl": "",
   "stats": {
-    "experience": "2+ years",
-    "projects": 7,
-    "commits": "200+"
+    "experience": "4+ years",
+    "projects": 4,
+    "commits": "100+"
   }
 }

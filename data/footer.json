@@ -1,12 +1,17 @@
 {
-  "copyright": "Gopichand",
+  "copyright": "Gopichand Kandikonda",
   "year": "2026",
   "tagline": "Built with vanilla HTML/CSS/JS. No frameworks harmed.",
   "links": [
     {
       "label": "Email",
-      "url": "mailto:gopichand@example.com",
+      "url": "mailto:gopi.kandikonda21@gmail.com",
       "icon": "email"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/gopichand-kandikonda-0042281a7/",
+      "icon": "linkedin"
     }
   ]
 }
