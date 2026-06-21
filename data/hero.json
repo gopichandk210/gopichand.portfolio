@@ -1,15 +1,15 @@
 {
   "asciiName": [
     "=======================",
-    "  Hema Varshini Perla  ",
+    "     Gopichand         ",
     "======================="
   ],
-  "name": "Hema Varshini Perla",
+  "name": "Gopichand",
   "tagline": "Available for work",
   "roles": [
     "Software Development Engineer",
-    "Embedded software engineer",
-    "AI/ML engineer"
+    "Backend Developer",
+    "AI/ML Enthusiast"
   ],
   "bootSequence": [
     "[OK] Loading kernel modules...",
@@ -20,29 +20,28 @@
     "[OK] System ready."
   ],
   "techTags": [
-    "C++",
-    "Python",
     "Java",
-    "GenAI",
+    "Python",
     "JavaScript",
+    "Spring Boot",
     "AWS"
   ],
   "socialLinks": [
     {
       "label": "GitHub",
-      "url": "https://github.com/Hema-Varshini",
+      "url": "https://github.com/gopichand",
       "icon": "github"
     },
     {
       "label": "Email",
-      "url": "mailto:hemavarshinip.31@gmail.com",
+      "url": "mailto:gopichand@example.com",
       "icon": "email"
     }
   ],
   "resumeUrl": "",
   "stats": {
-    "experience": "3+ years",
+    "experience": "2+ years",
     "projects": 7,
-    "commits": "500+"
+    "commits": "200+"
   }
 }

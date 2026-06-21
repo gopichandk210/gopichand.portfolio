@@ -1,13 +1,13 @@
 {
   "heading": "$ cat about.md",
   "bio": [
-    "An Innovative problem-solver and competitive coder with 3+ years of experience in full-stack, AI, and distributed systems development. Strong in modern C++, embedded systems, and backend engineering with Java, Spring Boot, and SQL.",
-    "Experienced in machine learning and cloud platforms, focused on building scalable, high-impact solutions."
+    "A motivated software developer with a strong interest in building scalable web applications, backend systems, and data-driven solutions.",
+    "Passionate about learning modern technologies and creating practical, user-focused products."
   ],
   "highlights": [
     {
       "label": "Years Experience",
-      "value": "3+"
+      "value": "2+"
     },
     {
       "label": "Projects Completed",
@@ -15,7 +15,7 @@
     },
     {
       "label": "Technologies",
-      "value": "65+"
+      "value": "20+"
     }
   ],
   "avatarUrl": "assets/images/hema-varshini-photo.jpeg",
