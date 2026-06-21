@@ -17,9 +17,9 @@
       "command": "ps aux"
     },
     {
-      "label": "/skills",
+      "label": "/technologies",
       "href": "#skills",
-      "command": "ls skills/"
+      "command": "tree technologies/"
     },
     {
       "label": "/projects",

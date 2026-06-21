@@ -9,12 +9,12 @@
       "startDate": "Jan 2026",
       "endDate": "Present",
       "status": "ACTIVE",
-      "description": "Built Python automation services for development, debugging, deployment checks, and release validation by packaging logs, configuration data, and run context into reusable engineering workflows. Developed agentic AI workflows using planner-executor patterns, tool registry design, MCP-style tool adapters, stateful context management, retry handling, and traceable execution logs.",
+      "description": "Building automation and GenAI-assisted engineering workflows for release validation, debugging, deployment checks, and internal developer productivity.",
       "achievements": [
-        "Built Python automation services for development, debugging, deployment checks, and release validation workflows.",
-        "Developed AI-driven validation flows with structured prompts, tool-calling adapters, guardrails, retry handling, and execution traces.",
-        "Designed FastAPI REST endpoints and UI integrations to trigger regression runs and track execution status through an internal portal.",
-        "Integrated Jenkins CI/CD pipelines to auto-trigger builds and publish release certification reports."
+        "Turned recurring engineering checks into reusable Python services that package logs, configuration details, and run context into traceable workflows.",
+        "Designed agent-style validation flows with planner-executor patterns, tool adapters, guardrails, retries, and execution logs engineers can audit.",
+        "Created FastAPI endpoints and internal portal integrations so teams can trigger regression runs, follow status, and review release certification output.",
+        "Connected CI/CD workflows with Jenkins to reduce manual handoffs around build validation and reporting."
       ],
       "technologies": [
         "Python",
@@ -33,11 +33,11 @@
       "startDate": "Aug 2025",
       "endDate": "Dec 2025",
       "status": "STOPPED",
-      "description": "Built an LLM-powered incident-triage assistant for cloud operations, enabling structured RCA, query handling, troubleshooting support, and investigation workflows across AWS, Azure, and GCP environments.",
+      "description": "Worked on an LLM-powered cloud operations assistant focused on incident triage, RCA support, and guided troubleshooting across multi-cloud environments.",
       "achievements": [
-        "Developed Python-based intent routing and tool-selection logic for cloud operations workflows.",
-        "Built RAG pipeline components using embeddings, vector retrieval, and knowledge-base context.",
-        "Containerized AI workflow services with Docker and supported Kubernetes-based deployment cycles."
+        "Built intent-routing and tool-selection logic that helped map operational questions to the right retrieval, diagnostic, or cloud workflow.",
+        "Implemented RAG components using embeddings, vector retrieval, and curated knowledge-base context for incident investigation.",
+        "Packaged AI workflow services with Docker and supported Kubernetes deployment cycles for platform integration."
       ],
       "technologies": [
         "Python",
@@ -58,12 +58,12 @@
       "startDate": "Jan 2024",
       "endDate": "Aug 2024",
       "status": "STOPPED",
-      "description": "Built ML-ready HR analytics datasets from years of HR/ERP data and developed forecasting workflows using machine learning and time-series models to improve workforce planning insights.",
+      "description": "Created analytics and forecasting workflows that made workforce planning data easier to model, refresh, and explain.",
       "achievements": [
-        "Engineered HR analytics datasets and standardized records for workforce planning models.",
-        "Developed attrition-risk, leave-usage, and turnover forecasting workflows using XGBoost, ARIMA, Prophet, and LSTM.",
-        "Applied NLP and GenAI-assisted text analysis to employee feedback to extract retention insights.",
-        "Delivered dashboards in Power BI and QuickSight that reduced reporting time and refresh latency."
+        "Prepared ML-ready HR datasets by standardizing records, resolving data quality issues, and shaping features for workforce planning models.",
+        "Built attrition-risk, leave-usage, and turnover forecasting workflows using XGBoost, ARIMA, Prophet, and LSTM approaches.",
+        "Used NLP and GenAI-assisted text analysis to extract themes from employee feedback and support retention insights.",
+        "Delivered Power BI and QuickSight dashboards that made reporting faster and easier for stakeholders to revisit."
       ],
       "technologies": [
         "Python",
@@ -83,12 +83,12 @@
       "startDate": "Feb 2021",
       "endDate": "Dec 2022",
       "status": "STOPPED",
-      "description": "Built a Python-based vehicle feature configuration service and developed REST APIs with rule-validation workflows to support self-service packaging processes.",
+      "description": "Built backend services and data workflows for vehicle feature configuration, rule validation, and self-service packaging processes.",
       "achievements": [
-        "Developed Python REST APIs with schema validation, exception handling, and centralized business-rule logic.",
+        "Designed Python REST APIs with schema validation, exception handling, and centralized business-rule logic.",
         "Implemented a rule-validation engine for feature dependencies and configuration constraints.",
-        "Created batch-processing jobs for data ingestion, reconciliation, and scheduled reporting.",
-        "Optimized data access and improved backend performance using SQL tuning, caching, and Docker packaging."
+        "Created batch jobs for ingestion, reconciliation, and scheduled reporting around configuration data.",
+        "Improved backend performance through SQL tuning, caching, and Docker-based service packaging."
       ],
       "technologies": [
         "Python",

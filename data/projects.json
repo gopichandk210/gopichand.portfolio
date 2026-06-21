@@ -2,8 +2,8 @@
   "heading": "$ find ~/projects -type d -maxdepth 1",
   "projects": [
     {
-      "name": "PromptOps - AI Prompt Template Management System",
-      "description": "Built a Python/FastAPI backend for prompt lifecycle management, including CRUD APIs, schema validation, template rendering, versioning, and export workflows for enterprise AI use cases.",
+      "name": "PromptOps - Prompt Management Platform",
+      "description": "A backend-first platform for managing prompt templates like production assets. It supports versioned templates, schema-checked inputs, reusable rendering flows, and export paths for teams experimenting with enterprise AI workflows.",
       "technologies": [
         "Python",
         "FastAPI",
@@ -19,12 +19,29 @@
       "isNew": true
     },
     {
-      "name": "Warranty Claim Anomaly Detection Platform",
-      "description": "Designed and implemented anomaly-detection workflows using XGBoost, Isolation Forest, SHAP, and interactive review interfaces to detect unusual claims patterns and improve operational visibility.",
+      "name": "Multi-Agentic RAG Research Assistant",
+      "description": "A retrieval-augmented AI workflow that separates planning, retrieval, answer synthesis, and evaluation into agent-like steps. The project highlights orchestration patterns for more traceable AI assistants.",
+      "technologies": [
+        "Python",
+        "RAG",
+        "LLMs",
+        "Agents",
+        "Vector Search"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "liveUrl": "",
+      "githubUrl": "",
+      "isNew": false
+    },
+    {
+      "name": "Warranty Claim Anomaly Detection",
+      "description": "An ML review workspace for surfacing unusual warranty claim patterns. The project combines model-driven anomaly scoring, explainability, and reviewer-friendly interfaces so operations teams can inspect risk signals instead of digging through raw records.",
       "technologies": [
         "Python",
         "XGBoost",
-        "FastAPI",
+        "Isolation Forest",
         "Streamlit",
         "SHAP"
       ],
@@ -36,8 +53,25 @@
       "isNew": false
     },
     {
-      "name": "Stock Price Forecasting and MLOps Pipeline",
-      "description": "Created an end-to-end forecasting workflow with TensorFlow LSTM models, Dockerized deployment, model validation, monitoring, and rollout practices for reliable production delivery.",
+      "name": "Airflow ETL Data Pipeline",
+      "description": "A scheduled data pipeline for extracting, transforming, and loading structured datasets with repeatable DAG orchestration. It demonstrates workflow design, task dependencies, retries, and data pipeline observability.",
+      "technologies": [
+        "Python",
+        "Apache Airflow",
+        "ETL",
+        "SQL",
+        "Data Pipelines"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "liveUrl": "",
+      "githubUrl": "",
+      "isNew": false
+    },
+    {
+      "name": "Stock Forecasting MLOps Pipeline",
+      "description": "An end-to-end forecasting pipeline that treats model delivery as an engineering problem, not just a notebook result. It includes LSTM training, validation, containerized serving, monitoring hooks, and deployment-ready workflow structure.",
       "technologies": [
         "Python",
         "TensorFlow",
@@ -53,8 +87,90 @@
       "isNew": false
     },
     {
-      "name": "Ad Genius - Ad Content Generation Tool",
-      "description": "Prototyped an AI-assisted content generation workflow using LangChain, prompt templates, scoring logic, and dashboard-based campaign iteration for faster creative workflows.",
+      "name": "Intelligent Supply Chain Management System",
+      "description": "A full-stack supply-chain prototype that brings together inventory tracking, operational workflows, and blockchain-inspired traceability concepts. The project expands the portfolio into product-style systems with multiple moving parts.",
+      "technologies": [
+        "JavaScript",
+        "Python",
+        "Solidity",
+        "HTML",
+        "CSS"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "language": "JavaScript",
+      "liveUrl": "",
+      "githubUrl": "",
+      "isNew": false
+    },
+    {
+      "name": "Spring Boot Microservices Platform",
+      "description": "A Java backend project focused on decomposing application features into service boundaries, API contracts, and independently deployable Spring Boot services.",
+      "technologies": [
+        "Java",
+        "Spring Boot",
+        "Microservices",
+        "REST APIs"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "language": "Java",
+      "liveUrl": "",
+      "githubUrl": "",
+      "isNew": false
+    },
+    {
+      "name": "E-Commerce Recommendation Engine",
+      "description": "A recommendation-system project for matching shoppers with relevant products using behavioral signals and model-driven ranking. It adds a product analytics angle to the ML work in this portfolio.",
+      "technologies": [
+        "Python",
+        "Recommendation Systems",
+        "HTML",
+        "CSS"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "liveUrl": "",
+      "githubUrl": "",
+      "isNew": false
+    },
+    {
+      "name": "Online Banking Full-Stack Application",
+      "description": "A full-stack banking application with Java services and a React/Redux front end, built around account workflows, transaction-style interactions, and modular web application structure.",
+      "technologies": [
+        "Java",
+        "Spring Boot",
+        "React",
+        "Redux",
+        "JavaScript"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "language": "Java",
+      "liveUrl": "",
+      "githubUrl": "",
+      "isNew": false
+    },
+    {
+      "name": "Network Intrusion Detection with Machine Learning",
+      "description": "A security-focused ML project for classifying suspicious network behavior. It demonstrates feature preparation, model training, and evaluation patterns for cybersecurity analytics.",
+      "technologies": [
+        "Python",
+        "Machine Learning",
+        "Security Analytics",
+        "Jupyter Notebook"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "liveUrl": "",
+      "githubUrl": "",
+      "isNew": false
+    },
+    {
+      "name": "Ad Genius - AI Campaign Assistant",
+      "description": "A generative AI prototype for producing, scoring, and iterating ad copy. It uses prompt templates, LangChain orchestration, evaluation logic, and a lightweight dashboard to make creative experimentation faster and easier to compare.",
       "technologies": [
         "Python",
         "LangChain",
@@ -65,6 +181,22 @@
       "stars": 0,
       "forks": 0,
       "language": "Python",
+      "liveUrl": "",
+      "githubUrl": "",
+      "isNew": false
+    },
+    {
+      "name": "Image Manipulation and Enhancement App",
+      "description": "A desktop-style image processing application built around MVC architecture, scripting support, batch operations, undo/redo, and common transformations such as flipping, brightness adjustment, and channel enhancement.",
+      "technologies": [
+        "Java",
+        "MVC",
+        "Image Processing",
+        "GUI"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "language": "Java",
       "liveUrl": "",
       "githubUrl": "",
       "isNew": false

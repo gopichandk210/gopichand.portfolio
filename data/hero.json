@@ -5,11 +5,11 @@
     "========================="
   ],
   "name": "Gopichand Kandikonda",
-  "tagline": "Backend • AI • Automation",
+  "tagline": "Building backend systems for AI-heavy products",
   "roles": [
     "Software Engineer",
-    "AI/ML Engineer",
-    "Backend & Automation Engineer"
+    "Backend Systems Builder",
+    "AI Workflow Engineer"
   ],
   "bootSequence": [
     "[OK] Loading kernel modules...",
@@ -22,10 +22,10 @@
   "techTags": [
     "Python",
     "FastAPI",
-    "SQL",
-    "AWS",
     "LLMs",
-    "Docker"
+    "RAG",
+    "Cloud",
+    "MLOps"
   ],
   "socialLinks": [
     {
@@ -47,7 +47,7 @@
   "resumeUrl": "",
   "stats": {
     "experience": "4+ years",
-    "projects": 4,
+    "projects": 12,
     "commits": "100+"
   }
 }

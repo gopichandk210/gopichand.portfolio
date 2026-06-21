@@ -1,180 +1,60 @@
 {
-  "heading": "$ ls -la skills/",
+  "heading": "$ tree ~/technologies",
   "categories": [
     {
-      "name": "languages",
-      "permissions": "drwxr-xr-x",
+      "name": "Backend Systems",
+      "description": "APIs, services, validation layers, and integration workflows for production-facing applications.",
+      "focus": "service design",
       "items": [
-        {
-          "name": "Python",
-          "level": 95
-        },
-        {
-          "name": "SQL",
-          "level": 92
-        },
-        {
-          "name": "JavaScript",
-          "level": 86
-        },
-        {
-          "name": "Java",
-          "level": 80
-        },
-        {
-          "name": "C++",
-          "level": 78
-        }
+        { "name": "Python", "level": 95 },
+        { "name": "FastAPI", "level": 93 },
+        { "name": "REST APIs", "level": 94 },
+        { "name": "Pydantic", "level": 90 },
+        { "name": "Microservices", "level": 90 },
+        { "name": "gRPC", "level": 84 }
       ]
     },
     {
-      "name": "frameworks",
-      "permissions": "drwxr-xr-x",
+      "name": "AI Engineering",
+      "description": "LLM workflows, retrieval patterns, prompt systems, and model-backed product experiments.",
+      "focus": "applied intelligence",
       "items": [
-        {
-          "name": "FastAPI",
-          "level": 93
-        },
-        {
-          "name": "REST APIs",
-          "level": 94
-        },
-        {
-          "name": "Microservices",
-          "level": 90
-        },
-        {
-          "name": "gRPC",
-          "level": 84
-        },
-        {
-          "name": "LangChain",
-          "level": 88
-        },
-        {
-          "name": "LangGraph",
-          "level": 84
-        },
-        {
-          "name": "Pydantic",
-          "level": 90
-        },
-        {
-          "name": "Streamlit",
-          "level": 82
-        }
+        { "name": "LLMs", "level": 92 },
+        { "name": "RAG", "level": 89 },
+        { "name": "LangChain", "level": 88 },
+        { "name": "LangGraph", "level": 84 },
+        { "name": "OpenAI API", "level": 88 },
+        { "name": "Claude", "level": 84 }
       ]
     },
     {
-      "name": "tools",
-      "permissions": "drwxr-xr-x",
+      "name": "Data & ML",
+      "description": "Pipelines, notebooks, forecasting, explainability, and analytical model development.",
+      "focus": "models to insight",
       "items": [
-        {
-          "name": "Git",
-          "level": 93
-        },
-        {
-          "name": "Docker",
-          "level": 88
-        },
-        {
-          "name": "Kubernetes",
-          "level": 82
-        },
-        {
-          "name": "Jenkins",
-          "level": 87
-        },
-        {
-          "name": "GitHub Actions",
-          "level": 85
-        },
-        {
-          "name": "Terraform",
-          "level": 78
-        },
-        {
-          "name": "Postman",
-          "level": 88
-        },
-        {
-          "name": "Jupyter",
-          "level": 86
-        },
-        {
-          "name": "Jira",
-          "level": 82
-        }
+        { "name": "SQL", "level": 92 },
+        { "name": "Pandas", "level": 90 },
+        { "name": "NumPy", "level": 88 },
+        { "name": "XGBoost", "level": 86 },
+        { "name": "TensorFlow", "level": 78 },
+        { "name": "PyTorch", "level": 82 },
+        { "name": "Spark", "level": 80 },
+        { "name": "ETL", "level": 84 }
       ]
     },
     {
-      "name": "technical",
-      "permissions": "drwxr-xr-x",
+      "name": "Cloud & Delivery",
+      "description": "Containers, CI/CD, cloud services, and release workflows that keep systems shippable.",
+      "focus": "reliable delivery",
       "items": [
-        {
-          "name": "AWS",
-          "level": 88
-        },
-        {
-          "name": "GCP",
-          "level": 80
-        },
-        {
-          "name": "PostgreSQL",
-          "level": 86
-        },
-        {
-          "name": "MySQL",
-          "level": 84
-        },
-        {
-          "name": "Pandas",
-          "level": 90
-        },
-        {
-          "name": "NumPy",
-          "level": 88
-        },
-        {
-          "name": "Spark",
-          "level": 80
-        },
-        {
-          "name": "LLMs",
-          "level": 92
-        },
-        {
-          "name": "RAG",
-          "level": 89
-        },
-        {
-          "name": "OpenAI API",
-          "level": 88
-        },
-        {
-          "name": "Claude",
-          "level": 84
-        },
-        {
-          "name": "XGBoost",
-          "level": 86
-        },
-        {
-          "name": "PyTorch",
-          "level": 82
-        },
-        {
-          "name": "TensorFlow",
-          "level": 78
-        },
-        {
-          "name": "MLOps",
-          "level": 86
-        },
-        {
-          "name": "ETL",
-          "level": 84
-        }
+        { "name": "AWS", "level": 88 },
+        { "name": "GCP", "level": 80 },
+        { "name": "Docker", "level": 88 },
+        { "name": "Kubernetes", "level": 82 },
+        { "name": "Jenkins", "level": 87 },
+        { "name": "GitHub Actions", "level": 85 },
+        { "name": "Terraform", "level": 78 },
+        { "name": "Git", "level": 93 }
       ]
     }
   ],

@@ -1,25 +1,25 @@
 {
   "heading": "$ cat about.md",
-  "summary": "Software engineer focused on building reliable backend systems, automation workflows, and AI-powered products that improve speed, quality, and developer productivity.",
+  "summary": "I build backend platforms, AI workflows, and automation systems that turn messy operational problems into dependable software.",
   "bio": [
-    "Software engineer with 4+ years of experience designing scalable backend systems, automation platforms, and AI-enabled tools for cloud, telecom, and enterprise environments.",
-    "I enjoy turning complex requirements into practical, production-ready solutions using Python, APIs, data pipelines, and thoughtful engineering practices.",
-    "My work spans system design, workflow optimization, experimentation, and collaboration across engineering and product teams."
+    "I am a software engineer who likes the space where backend engineering, automation, and applied AI meet. My work is usually about taking something slow, manual, or hard to reason about and turning it into a system people can trust.",
+    "I care about clean APIs, practical architecture, readable services, and workflows that give teams better visibility into what is happening. I have worked across telecom, cloud operations, enterprise platforms, and analytics-heavy environments.",
+    "This portfolio highlights the kinds of systems I enjoy building: prompt platforms, AI assistants, anomaly detection workflows, forecasting pipelines, and tools that help engineers move faster with fewer blind spots."
   ],
   "highlights": [
     {
-      "label": "Years Experience",
-      "value": "4+"
+      "label": "Engineering Experience",
+      "value": "4+ yrs"
     },
     {
-      "label": "Projects Delivered",
-      "value": "4+"
+      "label": "Portfolio Projects",
+      "value": "AI + Backend"
     },
     {
-      "label": "Core Focus",
-      "value": "Backend + AI"
+      "label": "Sweet Spot",
+      "value": "APIs to MLOps"
     }
   ],
   "avatarUrl": "",
-  "currentFocus": "Software Engineer"
+  "currentFocus": "Backend, AI Systems, Automation"
 }

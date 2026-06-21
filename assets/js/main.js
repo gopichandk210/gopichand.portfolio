@@ -412,29 +412,36 @@
     if (!skillsData) return;
 
     var heading = $('skills-heading');
-    if (heading) heading.textContent = 'Technical Skills';
+    if (heading) heading.textContent = 'Technologies';
 
     var cardGrid = $('skills-card-grid');
     if (cardGrid) {
       var categories = Array.isArray(skillsData.categories) ? skillsData.categories : [];
-      cardGrid.innerHTML = categories.map(function (cat) {
+      cardGrid.innerHTML = categories.map(function (cat, index) {
         var items = Array.isArray(cat.items) ? cat.items : [];
+        var featured = items.slice(0, 2).map(function (item) {
+          var skill = typeof item === 'string' ? { name: item } : item;
+          return esc(skill.name || '');
+        }).filter(Boolean).join(' + ');
         return '<div class="skill-category-card">' +
+          '<div class="skill-card-index">' + String(index + 1).padStart(2, '0') + '</div>' +
           '<div class="skill-category-header">' +
-            '<div class="skill-category-name">' + esc(cat.name) + '</div>' +
-            '<span class="skill-category-count">' + items.length + '</span>' +
+            '<div>' +
+              '<div class="skill-category-name">' + esc(cat.name) + '</div>' +
+              (cat.focus ? '<div class="skill-category-focus">' + esc(cat.focus) + '</div>' : '') +
+            '</div>' +
+            '<span class="skill-category-count">' + items.length + ' tools</span>' +
           '</div>' +
+          (cat.description ? '<p class="skill-category-description">' + esc(cat.description) + '</p>' : '') +
+          (featured ? '<div class="skill-featured-stack">' + featured + '</div>' : '') +
           '<div class="skill-pills">' +
             items.map(function (item) {
               var skill = typeof item === 'string' ? { name: item } : item;
               var level = skill.level != null ? Number(skill.level) : null;
               var safeLevel = (level == null || isNaN(level)) ? null : Math.max(0, Math.min(100, level));
-              var levelBadge = safeLevel != null
-                ? '<span class="skill-pill-level">' + esc(safeLevel) + '%</span>'
-                : '';
-              return '<span class="skill-pill">' +
+              var weightClass = safeLevel >= 90 ? ' is-primary' : (safeLevel >= 85 ? ' is-strong' : '');
+              return '<span class="skill-pill' + weightClass + '">' +
                 '<span class="skill-pill-name">' + esc(skill.name || '') + '</span>' +
-                levelBadge +
               '</span>';
             }).join('') +
           '</div>' +
@@ -442,7 +449,7 @@
       }).join('');
 
       if (!cardGrid.innerHTML.trim()) {
-        cardGrid.innerHTML = '<div class="skill-category-card"><div class="skill-category-header"><div class="skill-category-name">skills</div><span class="skill-category-count">0</span></div><div class="skill-pills"><span class="skill-pill"><span class="skill-pill-name">Unable to render skills</span></span></div></div>';
+        cardGrid.innerHTML = '<div class="skill-category-card"><div class="skill-category-header"><div><div class="skill-category-name">Technologies</div></div><span class="skill-category-count">0 tools</span></div><div class="skill-pills"><span class="skill-pill"><span class="skill-pill-name">Unable to render technologies</span></span></div></div>';
       }
     }
 
